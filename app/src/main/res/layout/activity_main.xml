@@ -75,9 +75,10 @@
 <com.google.android.material.textfield.TextInputLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:endIconMode="password_toggle"
+
 >
     <EditText
+        android:inputType="textPassword"
     android:id="@+id/edit_parol"
     android:layout_width="300dp"
     android:layout_height="48dp"
